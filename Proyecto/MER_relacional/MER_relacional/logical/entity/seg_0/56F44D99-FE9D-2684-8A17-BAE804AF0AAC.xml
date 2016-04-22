@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6FF33C5-6808-C1E1-CC26-AF5335E7191F" name="Administracionv2">
-<createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:03:06 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56F44D99-FE9D-2684-8A17-BAE804AF0AAC" name="Logistica">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:07:46 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>

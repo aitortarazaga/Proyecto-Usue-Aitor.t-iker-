@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D0418D5-6D7D-7007-79C4-827E0E8B76E7" name="Viaje">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>0B80BACC-C8D0-6D8B-0509-2871CB2A670F</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AD19FA65-F451-17D8-38D6-2D3D09F84CC2">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>37F185AF-9D55-F8DA-A844-3C53C97D5BF4</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hSalida" id="C32BC0A3-8F44-EDC8-B2C9-F29D080F060F">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>5DC8CA14-BEE7-670F-EBB0-BDC25082D68B</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hLlegada" id="055CFFE8-207F-AD0F-5A5D-DB377788937D">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>498669D3-AC8D-8319-62C6-9261F7D6EC9E</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idParte" id="FC015559-C010-F8D0-0261-88AB14B40A1A">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>4CFBB5BC-DC54-B54E-5385-DBFA3C2090CB</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A6EE03B-6BA7-1B9E-DBE9-6FE54AD6BF10" referredColumn="18D21C58-361B-D307-899E-DECF4109EEFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F059B15-0C7A-F2B7-F6A9-AB0B9EE04E9A" name="Viaje_PK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>160B235C-234F-C81B-FF4E-D94734700E61</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD19FA65-F451-17D8-38D6-2D3D09F84CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C937C30-8AF0-8F8C-65CE-AF182292046D" name="Viaje_Parte_FK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>38BC2905-7BFE-8A6B-9680-81966A1E6B07</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC015559-C010-F8D0-0261-88AB14B40A1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B4C4FE5-6130-6378-1003-4019E8869ABD" name="Logistica">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:25:42 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="22EC771C-7AA4-D6AB-494C-2C7D6B640B35">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B7C4693F-3B91-98E8-9A79-E749E7CC4721">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1" id="A719F28C-B2D6-6C1C-7EF6-5A328D57702E">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2" id="0BCE2D86-EFFA-02D0-B1BA-C5C9ED25A58C">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telEmpresa" id="0A9D0347-DA47-88CB-75EB-B7C60E4C9203">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="237C3B14-7D0E-AE2C-5B47-E481278AE2D0">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portal" id="FD09D857-1F11-F527-A8CF-18E68339C9BD">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piso" id="A002001C-349A-0999-48EF-11BB47ED50CB">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mano" id="64F65103-649E-6288-09A1-F8EAFFF05662">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telPersonal" id="20BBFCD8-C2D0-659E-28A9-8C2BEEA01653">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNac" id="33A7227C-D52C-0A70-AE7E-6ABEEA7D89E5">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="D24A84AF-4D6B-D33F-16BB-C01847752F19">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hExtra" id="DC8083BF-FFF2-D481-FAFC-21A952D369B6">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:37 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centro_id" id="D3B8F2A7-5CEC-D2F4-2F49-8051C478BCDF">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:45:50 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAE3CA19-D933-B094-6820-615EEEC84AA8" referredColumn="E9D3BD22-10F3-95B1-7A12-485EF0E27618"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98A90120-BA23-9CEF-F2B9-CE402176CCDF" name="Logistica_PK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:30:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22EC771C-7AA4-D6AB-494C-2C7D6B640B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B356F95E-1004-AA67-C7E8-24228F4DE31F" name="Logistica_Centro_FK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-12 10:45:50 UTC</createdTime>
+<generatorID>F48B2FC3-4B51-E7FC-5362-8FEF729D3615</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B8F2A7-5CEC-D2F4-2F49-8051C478BCDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

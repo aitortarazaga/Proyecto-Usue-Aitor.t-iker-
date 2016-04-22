@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BA74E3D-3588-F48E-849F-F78EA118AF04" name="Usuario">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>A2652BD3-E315-034E-B159-98AFD7FAEFC9</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario" id="149C514A-7C23-241C-224B-38E2DC245398">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>319E5660-1A69-D8B2-2983-64CE5FBB8B45</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenia" id="1D02CD90-EA6F-9621-04E4-C3009D22CD13">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>3683B3DE-6CAB-8802-932F-FBA698D5AAD5</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admanistracion_dni" id="52AF245A-00BA-687C-E0B4-C407E734891A">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-18 11:10:02 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74041EC1-7C22-36DB-57D2-D0B81CF591EC" referredColumn="8EA39DEB-4D33-E409-64D6-AB0094108C19"/>
+</associations>
+</Column>
+<Column name="Logistica_dni" id="EE072AFA-63B0-32F4-5301-8827D9F3725F">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-18 11:10:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42345DA5-9F12-8DFC-B738-500126425CFC" referredColumn="22EC771C-7AA4-D6AB-494C-2C7D6B640B35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20BBBBCB-82C7-BA4D-06D3-ABF6224E96F7" name="Usuario_PK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<generatorID>1D7FB906-F880-2587-7EE2-E7A6F01C75A6</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149C514A-7C23-241C-224B-38E2DC245398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC16215A-DA61-47B5-444A-469C2779BB14" name="Usuario__IDX">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-11 10:37:38 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ED8FC699-7B22-710F-617B-7B7F43341217</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="A97E0DC6-BCF7-5B76-82E4-AB4973F90A9A" name="Usuario_Admanistracion_FK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-18 11:10:02 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52AF245A-00BA-687C-E0B4-C407E734891A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C14EC0C-87A9-790A-6E8F-868E72C03668" name="Usuario_Logistica_FK">
+<createdBy>1gprog07</createdBy>
+<createdTime>2016-04-18 11:10:09 UTC</createdTime>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE072AFA-63B0-32F4-5301-8827D9F3725F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
